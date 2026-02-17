@@ -2,5 +2,12 @@
 members = [
     "libs/monorail",
     "libs/proc",
+    "libs/examples/cross-shard-computation",
+    "libs/examples/actor-based-processing",
+    "libs/examples/broadcast-to-all-shards",
+    "libs/examples/async-operations",
+    "libs/examples/fire-and-forget",
+    "libs/examples/simple-actor-lifecycle",
+    "libs/examples/worker-actor-message-passing",
 ]
 resolver = "2"

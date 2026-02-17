@@ -35,7 +35,7 @@ The topology in monorail defines how many shards are active, and sets up the com
 
 ## Basic examples
 
-The file libs/monrail/src/examples/actors.rs has a few test case examples.
+Check libs/examples for more info
 
 ### Basic Setup
 
