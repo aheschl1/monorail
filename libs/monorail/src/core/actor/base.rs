@@ -319,10 +319,6 @@ where
     anon: AnonymousAddr
 }
 
-
-
-
-
 impl<T> LocalAddr<T>
 where
     T: Actor,
@@ -390,10 +386,10 @@ where
         self.anon.await_death().await
     }
 
-    pub async fn register(self, name: &'static str) -> Self {
-        actors::register(name, self.clone()).await.expect("Failed to register the Actor");
-        self
-    }
+    // pub async fn register(self, name: &'static str) -> Self {
+    //     actors::register(name, self.clone()).await.expect("Failed to register the Actor");
+    //     self
+    // }
 }
 
 impl<T> LocalAddr<T>
